@@ -1,0 +1,121 @@
+*{
+margin: 0;
+padding: 0;
+}
+html, body{
+	height: 100%;
+}
+body{
+	font-family: Verdana, tahoma, arial, sans-serif;
+	overflow: auto;
+}
+
+nav{ 
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 99;
+	
+}
+#navdiv #logo{
+	width: 20%;
+	color: red;
+	float: left;
+	
+}
+#navdiv ul{
+	position:relative;
+	float: right;
+	width:80%;
+	line-height: 80px;
+	display: inline-block;
+	
+	}
+#navdiv ul li{
+	list-style-type: none;
+	display: inline-block;
+	}
+#navdiv ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	
+}
+#menu{
+	float: right;
+	width: 60%;
+}
+/*---------------------------------------START POP UP BACKGROUND----------------------------------------------------- */
+
+#pop_background{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left:0;
+	background: #000;
+	opacity: .8;
+	z-index: 1000;
+	display: none;
+
+	
+}
+#pop_box{
+	position: fixed;
+	background: #fff;
+	width: 30%;
+	margin: 100px 0 0 35%;
+	padding: 20px;
+	z-index: 1500;
+	display: none;
+	
+}
+#close{
+	width:10px;
+	height:10px;
+	border-radius: 50%;
+	border: 1px solid #999;
+    text-align: center;
+	line-height: 10px;
+	font-size: 12px;
+	float:right;
+	cursor:pointer;
+}
+#logo{
+	padding-top: 20px;
+	padding-left:30px;
+	
+}
+
+/*---------------------------------------END POP UP BACKGROUND----------------------------------------------------- */
+.sect{
+	height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.subSection{
+	height: 50%;
+	background-color:white;
+	background-size: cover;
+}
+.one{
+	background-image: url("../images/about.jpg");
+	background-size: cover;
+}
+.sectOne{
+	background-image: url("../images/image1.jpg");
+}
+.sectTwo{
+	background-image: url("../images/image2.jpg");
+}
+.sectThree{
+	background-image: url("../images/image3.jpg");
+}
+/*--------------about---------------*/
+#about_text{
+	position: relative;
+	width: 60%;
+	left: 20%;
+	top: 30px;
+}
